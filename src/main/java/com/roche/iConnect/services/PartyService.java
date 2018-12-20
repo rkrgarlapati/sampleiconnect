@@ -8,6 +8,7 @@ import javax.xml.ws.Response;
 import java.util.Date;
 
 @RestController
+@RequestMapping("/iconnectparty")
 public class PartyService {
     @RequestMapping("/party")
     public ResponseEntity party(){
